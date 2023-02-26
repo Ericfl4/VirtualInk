@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_marginTop="25dp"
+    tools:context=".d3.MiPresupuestoFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Introduzca el alto y ancho del tatuaje que quiere hacerse en cm y tendra un presupuesto aproximado para su idea"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginVertical="10dp"/>
+
+    <EditText
+            android:id="@+id/alto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Alto (cm)"
+            android:layout_marginHorizontal="30dp"/>
+        <EditText
+            android:id="@+id/ancho"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ancho (cm)"
+            android:layout_marginHorizontal="30dp"/>
+
+
+    <Button
+        android:id="@+id/calcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/lavender"
+        android:text="Calcular precio"
+        android:layout_marginHorizontal="30dp"/>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/precio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="48sp"
+            android:gravity="center"/>
+        <ProgressBar
+            android:id="@+id/calculando"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:gravity="center"/>
+    </FrameLayout>
+    </LinearLayout>

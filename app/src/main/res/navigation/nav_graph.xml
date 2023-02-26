@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/Tatuadores">
+    <fragment
+        android:id="@+id/Tatuadores"
+        android:name="com.example.virtualink.d1.Tatuadores"
+        android:label="Tatuadores"
+        tools:layout="@layout/fragment_tatuadores" />
+    <fragment
+        android:id="@+id/Estilos"
+        android:name="com.example.virtualink.d2.Estilos"
+        android:label="Estilos"
+        tools:layout="@layout/fragment_estilos" />
+    <fragment
+        android:id="@+id/Presupuestos"
+        android:name="com.example.virtualink.d3.Presupuestos"
+        android:label="Presupuestos"
+        tools:layout="@layout/fragment_presupuestos" />
+</navigation>

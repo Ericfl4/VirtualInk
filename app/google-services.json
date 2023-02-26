@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "569835898884",
+    "project_id": "virtualinkproyect",
+    "storage_bucket": "virtualinkproyect.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569835898884:android:210d8c5792315360720d51",
+        "android_client_info": {
+          "package_name": "com.example.virtualink"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "569835898884-qrs8v0prcs8mlrgeabefvctr5p70ii35.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsxdwWf6B1V38e9ForDySy3ykgOnoV2UA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "569835898884-qrs8v0prcs8mlrgeabefvctr5p70ii35.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

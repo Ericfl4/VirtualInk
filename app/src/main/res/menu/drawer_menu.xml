@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Tatuadores"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Tatuadores" />
+
+    <item
+        android:id="@+id/Estilos"
+        android:icon="@drawable/ic_baseline_vaccines_24"
+        android:title="Estilos" />
+
+    <item
+        android:id="@+id/Presupuestos"
+        android:icon="@drawable/ic_baseline_attach_money_24"
+        android:title="Presupuestos" />
+</menu>
